@@ -79,6 +79,7 @@
             <groupId>nocom</groupId>
             <artifactId>x</artifactId>
             <version>0.0.1</version>
+	    <scope>local</scope>
         </dependency>
 
 		<dependency>
