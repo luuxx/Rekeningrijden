@@ -8,5 +8,5 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan
 @RabbitListenerTest(spy = false, capture = true)
 public class Config {
-
+    //this class is suppose to be empty.
 }
