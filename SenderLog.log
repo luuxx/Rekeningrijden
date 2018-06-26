@@ -1,0 +1,2 @@
+Jun 26, 2018 2:22:03 AM lu.europe.communication.RabbitSender sendOrder
+INFO: (Body:'{"id":"car-001-c2","origin":"LU","price":0.0034983914648164774,"distance":174,"vat":18,"details":[{"rate":0.02,"description":"Normal rate","distance":174.91957324082387,"start":1529972146502,"end":1529972523327}]}' MessageProperties [headers={}, contentType=application/json, contentLength=0, deliveryMode=PERSISTENT, priority=0, deliveryTag=0])

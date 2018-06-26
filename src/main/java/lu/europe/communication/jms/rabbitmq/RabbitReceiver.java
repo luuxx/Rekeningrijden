@@ -24,7 +24,7 @@ public class RabbitReceiver {
     }
 
 
-    @RabbitListener(queues = CommunicationApplication.queueName)
+    @RabbitListener(id="r1", queues = CommunicationApplication.queueName)
     public void receiveMessage(byte[] message) {
         String stringMessage = new String(message);
         System.out.println("Received <" + stringMessage + ">");
