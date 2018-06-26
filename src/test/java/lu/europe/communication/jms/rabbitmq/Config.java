@@ -9,4 +9,5 @@ import org.springframework.context.annotation.Configuration;
 @RabbitListenerTest(spy = false, capture = true)
 public class Config {
 
+
 }
